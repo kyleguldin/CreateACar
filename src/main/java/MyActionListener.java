@@ -1,0 +1,47 @@
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+/**
+ * File name: MyActionListener.java Short description: FILL THIS IN IST 242
+ * Assignment: Enter Assignment # here
+ *
+ * @author Kyle Guldin
+ * @version 1.01 2014-08-25 Date:
+ */
+/**
+ *
+ * @author Kyle Guldin import java.util.Scanner;
+*
+ */
+class MyActionListener implements ActionListener {
+
+    private MyJPanel1 jp;
+    private ImageIcon image1;
+    private JLabel label1;
+    private ImageIcon image2;
+    private JLabel label2;
+    private ImageIcon image3;
+    private JLabel label3;
+    private JButton button;
+    private JPanel panel;
+
+    public MyActionListener(MyJPanel1 jp) {
+        this.jp = jp;
+    }
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+
+// image3 = new ImageIcon(getClass().getResource("IST261TruckOutline.PNG"));
+//      label3 = new JLabel(image3);
+//     jp.add(label3);
+        boolean truck = true;
+        this.jp.truckDefault();
+    }
+
+}
