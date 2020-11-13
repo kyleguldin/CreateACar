@@ -22,11 +22,11 @@ public class App extends JFrame {
 
     App() {
         setLayout(new FlowLayout());
-        image1 = new ImageIcon(getClass().getResource("IST261SedanOutline.PNG"));
+        image1 = new ImageIcon(getClass().getResource("Images/IST261SedanOutline.PNG"));
         label1 = new JLabel(image1);
         add(label1);
 
-        image3 = new ImageIcon(getClass().getResource("IST261TruckOutline.PNG"));
+        image3 = new ImageIcon(getClass().getResource("Images/IST261TruckOutline.PNG"));
         label3 = new JLabel(image3);
         add(label3);
 
