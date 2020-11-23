@@ -1,4 +1,8 @@
+package Controller;
 
+
+import View.MyJPanel2;
+import View.MyJPanel1;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.ImageIcon;

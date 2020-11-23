@@ -1,4 +1,10 @@
+package View;
 
+
+import View.MyJPanel4;
+import View.MyJPanel3;
+import View.MyJPanel2;
+import View.MyJPanel1;
 import java.awt.*;
 import javax.swing.*;
 
